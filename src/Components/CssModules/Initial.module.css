@@ -67,7 +67,7 @@
   justify-content:center;
 }
 /*
-      RESPONSIVE WEB PHONE
+       RESPONSIVE WEB TABLE
 */
 @media screen and (max-width: 600px) {
   .navbar, .fleximg, .name , .BotonLink, .BotonsLinks {
@@ -85,9 +85,9 @@
 }
 }
 /*
-       RESPONSIVE WEB TABLE
+      RESPONSIVE WEB PHONE
 */
- @media screen and (max-width: 335px) {
+ @media screen and (max-width: 350px) {
   .navbar, .fleximg, .name , .BotonLink, .BotonsLinks {
     width: 100%;
   }
