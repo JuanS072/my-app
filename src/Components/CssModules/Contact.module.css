@@ -6,8 +6,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
-  background-attachment: fixed;
-  position: absolute;
+  background-attachment: fixed; 
+ position: absolute;
 }
 
 .box{
@@ -59,7 +59,7 @@ color:#48c6f8;
   /*
        RESPONSIVE WEB TABLE
 */
- @media screen and (max-width: 364px) {
+ @media screen and (max-width: 384px) {
     .box {
     align-items: center;
     text-align: center;
