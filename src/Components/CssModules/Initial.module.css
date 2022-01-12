@@ -87,7 +87,7 @@
 /*
       RESPONSIVE WEB PHONE
 */
- @media screen and (max-width: 350px) {
+ @media screen and (max-width: 364px) {
   .navbar, .fleximg, .name , .BotonLink, .BotonsLinks {
     width: 100%;
   }
