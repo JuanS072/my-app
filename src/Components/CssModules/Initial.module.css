@@ -1,0 +1,119 @@
+/*-----------------Nav-------------------*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  /* border: 3px solid #316B83;
+    background-color: #316B83; */
+  /* padding: 15px; */
+}
+.BotonsLinks{
+  margin-left: 20px;
+  width: 800px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.PortLink {
+  text-decoration-line: none;
+  color: #ffffff;
+  font-size: 35px;
+}
+.PortLink:hover{
+    text-decoration-line: none;
+    color: #316B83;
+    font-size: 35px;
+}
+.BotonLink {
+  text-decoration-line: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+.BotonLink:hover{
+    text-decoration-line: none;
+    color: #316B83;
+    font-size: 25px;
+}
+
+/*------------img and text---------------*/
+.fleximg{
+  display:flex; 
+ justify-content:center;
+}
+
+.img {
+  align-items: center;
+  border-radius: 200px;
+  margin-top: 60px;
+  width: 400px;
+  height: 400px;
+}
+
+.imgBackground {
+  width: 100%;
+  height: 100%; 
+  background-image: url(https://fondosmil.com/fondo/45321.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+}
+.name {
+  display:flex; 
+  color: white;
+  margin-top: 20px;
+  font-size: 35px;
+  justify-content:center;
+}
+/*
+      RESPONSIVE WEB PHONE
+*/
+@media screen and (max-width: 600px) {
+  .navbar, .fleximg, .name , .BotonLink, .BotonsLinks {
+    width: 100%;
+  }
+.navbar{
+  display:flex;
+  flex-direction: column;
+}
+.BotonsLinks{
+  display:flex;
+  flex-direction: row;
+  margin-left: 50px;
+ width: 500px;
+}
+}
+/*
+       RESPONSIVE WEB TABLE
+*/
+ @media screen and (max-width: 335px) {
+  .navbar, .fleximg, .name , .BotonLink, .BotonsLinks {
+    width: 100%;
+  }
+.navbar{
+  display:flex;
+  flex-direction: column;
+}
+.BotonsLinks{
+  display:flex;
+  flex-direction: row;
+  margin-left: 0px;
+ 
+}
+} 
+
+
+ @media screen and (min-width: 600px) {
+  .navbar, .fleximg, .name , .BotonLink, .BotonsLinks {
+    width: 100%;
+  }
+ 
+  .BotonsLinks{
+    margin-left: 70px;
+  }
+} 
+/*
+FONDO PARA OTRA PANTALLAP: https://w0.peakpx.com/wallpaper/649/720/HD-wallpaper-northern-lights-aurora-borealis-nature.jpg
+*/
+

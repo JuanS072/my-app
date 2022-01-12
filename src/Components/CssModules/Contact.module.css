@@ -1,0 +1,73 @@
+
+.imgBackground {
+  width: 100%;
+  height: 100%; 
+  background-image: url(https://fondosmil.com/fondo/45321.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxcard{
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(255 255 255 / 20%);
+    padding: 10px;
+    border-radius: 60px;
+    height: 50%;
+    width: 62%; 
+    margin-top: 8%;
+}
+.lin{
+color:#48c6f8;
+}
+
+.linkedin{
+    text-decoration: none;
+    font-size: 20px;
+    Color:#deedf3;
+  }
+.gm{
+    color:red;
+}
+  .gmail{
+    text-decoration: none;
+    font-size: 20px;
+    Color:#7e0202;
+  }
+.git{
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+      width: 100%;
+    }
+    .Boxcard{
+      width: 50%;
+    }
+  }
+
+  /*
+       RESPONSIVE WEB TABLE
+*/
+ @media screen and (max-width: 335px) {
+    .box {
+    align-items: center;
+    text-align: center;
+      width: 100%;
+    }
+    .Boxcard{
+        align-items: center;
+        text-align: center;
+          width: 86%; 
+    }
+}
