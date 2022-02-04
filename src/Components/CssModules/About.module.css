@@ -93,7 +93,7 @@
 /*
      RESPONSIVE WEB TABLE
 */
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 464px) {
   .box {
     width: 100%;
   }

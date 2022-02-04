@@ -59,7 +59,7 @@ color:#48c6f8;
   /*
        RESPONSIVE WEB TABLE
 */
- @media screen and (max-width: 384px) {
+ @media screen and (max-width: 464px) {
     .box {
     align-items: center;
     text-align: center;
