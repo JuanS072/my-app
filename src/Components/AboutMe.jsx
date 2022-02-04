@@ -21,7 +21,7 @@ export default function AboutMe(){
         <h2 className={a.name}>Juan Carlos Sequeira</h2>
         <h2 className={a.name}>Edad: 19 años</h2>
         <h2 className={a.name}>Pais: Argentina</h2>
-        <h3 className={a.nameTec}>Soy Graduado del curso soy Henry y la mayoría de mi tiempo me encuentro aprendiendo y estudiando conocimientos en el desarrollo de paginas web y aplicaciones web, Ahora mismo me encuentro aprendiendo y adquiriendo conocimientos sobre el desarrollo en Salesforce.</h3>
+        <h3 className={a.nameTec}>Soy Graduado del curso soy Henry y la mayoría de mi tiempo me encuentro aprendiendo y estudiando conocimientos en el desarrollo de paginas web y aplicaciones web, Ahora mismo me encuentro interesado y adquiriendo conocimientos sobre el desarrollo en Salesforce.</h3>
         </div>
         <h1>----------------</h1>
         <h1>Tecnologias :</h1>
