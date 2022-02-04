@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import img from "./Photo.png"
+import img from "./juan.png"
 import n from "./CssModules/Initial.module.css"
 import c from "./CssModules/Contact.module.css"
 

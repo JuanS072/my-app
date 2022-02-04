@@ -8,6 +8,7 @@ import ContactMe from "./Components/ContactMe";
 import MyProjects from "./Components/MyProjects";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import n from "./Components/CssModules/Initial.module.css"
+import Cv from "./Components/Cv";
 function App() {
   return (
      <Router>
@@ -17,6 +18,7 @@ function App() {
       <Route path="/AboutMe" element={<AboutMe/>}/>
       <Route path="/MyProjects" element={<MyProjects/>}/>
       <Route path="/ContactMe" element={<ContactMe/>}/>
+      <Route path="/CV" element={<Cv/>}/>
       </Routes>
     </div>
     </Router>
