@@ -27,17 +27,17 @@ export default function MyProjects(){
               </div>
         </div>
         <div className={p.Box}>
-            <div className={p.cardbackground1}>
-            <iframe className={p.img} src="https://www.youtube.com/embed/2WFtAxZe1-w"
-             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-              encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            <div className={p.cardbackground1}> 
+              <iframe className={p.img} src="https://www.youtube.com/embed/ID4zMVbOVNc" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+               encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className={p.cardbackground}>
               <h2>VideoGames Web</h2>
               <h3>• Aplicación móvil - desarrollada como parte de nuestro proyecto Individual en Henry,
                 Curso de programacion con mas de 800hs de codigo en 4 meses.
               </h3>
-              <h3>  • 𝗧𝗲𝗰𝗻𝗼𝗹𝗼𝗴𝗶́𝗮𝘀 𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗱𝗮𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿𝗹𝗮:
+              <h3>  • 𝗧𝗲𝗰𝗻𝗼𝗹𝗼𝗴𝗶𝗮𝘀 𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗱𝗮𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿𝗹𝗮:
               🔸 𝗕𝗮𝘀𝗲 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀: PostgreSQL y Sequelize
               🔸 𝗕𝗮𝗰𝗸𝗲𝗻𝗱: NodeJs y Express
               🔸 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱: React, Redux y CSS</h3>
