@@ -78,6 +78,11 @@
     height: 750px; 
     border-radius:10px;
   }
+  .cv{
+    width: 450px;
+    height: 750px; 
+    border-radius:10px;
+  }
   .titulo{
     width: 550px;
     height: 400px;
@@ -98,6 +103,11 @@
   .cv1{
     width: 340px;
     height: 540px; 
+    border-radius:10px;
+  }
+  .cv{
+    width: 340px;
+    height: 600px; 
     border-radius:10px;
   }
   .titulo{
